@@ -98,7 +98,14 @@
                     "target": [
                         "TargetView1"
                     ]
-                }
+                },
+
+                {
+                    "pattern": "detail",
+                    "name": "detail",
+                    "target": "detail"
+                  }
+                
             ],
             "targets": {
                 "TargetView1": {
@@ -107,7 +114,13 @@
                     "clearControlAggregation": false,
                     "viewId": "View1",
                     "viewName": "View1"
-                }
+                },
+
+                "detail": {
+                    "viewId": "detail",
+                    "viewName": "Detail"
+                  }
+                                  
             }
         },
         "rootView": {

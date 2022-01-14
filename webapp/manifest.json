@@ -101,7 +101,7 @@
                 },
 
                 {
-                    "pattern": "detail",
+                    "pattern": "detail/{invoicePath}",
                     "name": "detail",
                     "target": "detail"
                   }
@@ -120,7 +120,7 @@
                     "viewId": "detail",
                     "viewName": "Detail"
                   }
-                                  
+
             }
         },
         "rootView": {
